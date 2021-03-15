@@ -1,0 +1,149 @@
+/*Begin your code here*/
+/*Requirement 1*/
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16pt;
+  font-family: 'Raleway', sans-serif;
+  background-image: url("../images/concrete_seamless.png");
+}
+
+/*Requirement 2*/
+header{
+  background: #fff;
+  border-bottom: 3px solid #50C7C7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  /*Your  code here again.*/
+
+}
+
+/*Requirement 3*/
+.nav_links{
+  display: flex;
+  flex-direction: column;
+  /*Your code here again.*/
+}
+
+
+/*Requirement 4*/
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    min-height: 500px;
+    /*Your code here*/
+    /*You must use flex.
+    /*Don't forget to vertically and horizontally 
+    align the element*/
+}
+
+/*Requirement 5*/
+.package {
+  /*width: 50%;*/
+  margin: 12px;
+  background: #fff;
+  border-radius: 7px;
+  padding: 0 0 50px 0;
+  /*Your code here.*/
+  /*Take a look at flex-basis*/
+  flex-basis: 400px;
+}
+
+/*Requirement 6*/
+/**  UNCOMMENT THIS CODE ONCE YOU
+/**  HAVE THE SELECTOR**/
+.package > header{
+  background: #288080;
+  border: 2px solid #45ADAD;
+  padding: 20px 0;
+  border-radius: 7px 7px 0 0;
+}
+
+
+/*Requirement 7*/
+.gallery{
+  min-height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-content: stretch;
+  justify-content: center;
+  /*Your code here again.*/
+
+}
+
+/*Requirement 8*/
+/**  UNCOMMENT THIS CODE ONCE YOU
+/**  HAVE THE SELECTOR**/
+.gallery > image{
+  border: 10px #50C7C7 solid;
+  margin: 10px;
+  width: 300px;
+}
+
+/*Requirement 9*/
+#logo{
+   /*Your code here.*/
+ 
+}
+
+/*Keyframes for animation*/
+@-webkit-keyframes logo_grow{
+  /*Your code here.*/
+
+}
+
+@keyframes logo_grow{
+  /*Your code here.*/
+
+} 
+
+@media screen and (min-width: 850px){
+
+  /*Requirement 10*/
+  header{
+    justify-content: space-between;
+    flex-direction: row;
+    /*Your code here again.*/  
+  }
+
+  /*Requirement 10*/
+  .nav_links{
+    flex-direction: row;
+    /*Your code here again.*/  
+  }
+
+  /*Requirement 11*/
+  .package {
+    /*width: 50%;*/
+    /*margin: 12px;
+    background: #fff;
+    border-radius: 7px;
+    padding: 0 0 50px 0;*/
+    flex-basis: 230 px;
+    /*align-items: center;
+    justify-content: center;
+    /*Your code here again.*/
+  }
+}
+
+/*Requirement 12*/
+/*Add media query to handle reduced-motion*/
+/*Your code here again.*/ 
+
+
+
+@media print { 
+
+  /*Requirement 13*/
+  /*Requirement 14*/
+  /*Requirement 15*/
+  /*Requirement 16*/
+  /*Requirement 17*/
+  /*Requirement 18*/
+ 
+}
+

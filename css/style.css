@@ -79,7 +79,7 @@ header{
 /*Requirement 8*/
 /**  UNCOMMENT THIS CODE ONCE YOU
 /**  HAVE THE SELECTOR**/
-.gallery img{
+.gallery > img{
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
@@ -132,7 +132,7 @@ header{
 /*Add media query to handle reduced-motion*/
 /*Your code here again.*/
   #logo{
-    animation: none;
+    /*animation: none;*/
   }
 
 

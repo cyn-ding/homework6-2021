@@ -79,7 +79,7 @@ header{
 /*Requirement 8*/
 /**  UNCOMMENT THIS CODE ONCE YOU
 /**  HAVE THE SELECTOR**/
-.gallery > img{
+.gallery img{
   border: 10px #50C7C7 solid;
   margin: 10px;
   width: 300px;
